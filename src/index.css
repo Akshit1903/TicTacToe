@@ -18,19 +18,26 @@ ul {
   margin-bottom: 10px;
 }
 
+.unseleted-move {
+  border: transparent;
+}
+
 .square {
   background: #fff;
   border: 1px solid #999;
   float: left;
-  font-size: 24px;
+  font-size: 60px;
   font-weight: bold;
-  line-height: 34px;
-  height: 34px;
+  line-height: 100 px;
+  height: 100px;
   margin-right: -1px;
   margin-top: -1px;
   padding: 0;
   text-align: center;
-  width: 34px;
+  width: 100px;
+}
+.win-square {
+  border-width: 4px;
 }
 
 .square:focus {
@@ -48,4 +55,8 @@ ul {
 
 .game-info {
   margin-left: 20px;
+}
+
+.db {
+  display: block;
 }
