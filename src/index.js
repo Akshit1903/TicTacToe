@@ -130,11 +130,7 @@ class Game extends React.Component {
     });
   }
   handleMovesSorting(event) {
-    if (event.target.value === "ascending") {
-      this.setState({ isDescending: false });
-    } else {
-      this.setState({ isDescending: true });
-    }
+    this.setState({ isDescending: event.target.value === "descending" });
   }
 
   render() {
