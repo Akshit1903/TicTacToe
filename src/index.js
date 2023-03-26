@@ -164,9 +164,12 @@ class Game extends React.Component {
         </li>
       );
     });
+    const movesListReversed = {};
     if (this.state.isDescending) {
       moves.reverse();
+      movesListReversed["reversed"] = "_";
     }
+
     // Render's Return
     return (
       <div className="game">
@@ -201,7 +204,7 @@ class Game extends React.Component {
           <div>
             <h3>{status}</h3>
           </div>
-          <ol>{moves}</ol>
+          <ol {...movesListReversed}>{moves}</ol>
         </div>
       </div>
     );
