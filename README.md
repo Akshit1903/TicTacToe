@@ -1,7 +1,7 @@
 # TicTacToe
 
 - The Tic Tac Toe Game is a web-based application developed using React.js.
-- It provides a fun and interactive way to play the classic Tic Tac Toe game an AI opponent.
+- It provides a fun and interactive way to play the classic Tic Tac Toe game against the AI opponent.
 
 - <a href="https://youtu.be/5LpbJYqvHrg">YouTube</a>
 - <a href="https://akshit1903.github.io/TicTacToe/">Deployed Link</a>
